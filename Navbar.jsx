@@ -1,0 +1,24 @@
+import "../css/Navbar.css";
+
+function Navbar() {
+    return (
+        <nav className="navbar">
+            <div className="logo">
+                <h1>Learnary</h1>
+            </div>
+
+            <ul className="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Courses</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+
+            <button className="login-btn">
+                Log In
+            </button>
+        </nav>
+    );
+}
+
+export default Navbar;
